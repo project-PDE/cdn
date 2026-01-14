@@ -1,0 +1,29 @@
+:root {
+    --deep-navy: #191520;
+    --deep-indigo: #221e2a;
+    --soft-purple: #AF99CC;
+    --pale-mauve: #CDBCE2;
+
+    --white: #f1f1f1;
+    --red: #f44336;
+    --green: #4caf50;
+
+    --vh: 100dvh;
+    --button: var(--soft-purple);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --text-color: var(--deep-navy);
+        --background: var(--pale-mauve);
+        --input: Var(--white)
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: var(--white);
+        --background: var(--deep-navy);
+        --input: var(--deep-indigo);
+    }
+}
