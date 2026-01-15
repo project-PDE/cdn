@@ -1,0 +1,17 @@
+.div-card {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid var(--input);
+    border-radius: var(--br);
+}
+
+.showcase {
+    display: flex;
+    padding: 20px;
+
+    border: 1px solid var(--input);
+    border-radius: var(--br);
+}
