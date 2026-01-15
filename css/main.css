@@ -1,2 +1,44 @@
 @import url("variables.css");
 @import url("buttons.css");
+@import url("fonts.css");
+@import url("layout.css");
+@import url("cards.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Google Sans", "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: var(--background);
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    height: var(--vh);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 1440px) {
+    main {
+        width: 1440px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 0 20px;
+    }
+}
