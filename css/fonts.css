@@ -1,0 +1,45 @@
+h1 {
+    font-size: clamp(2rem, 8vw, 4rem);
+}
+
+h2 {
+    font-size: clamp(1.125rem, 5vw, 2rem);
+}
+
+h3 {
+    font-size: clamp(1.125rem, 4.5vw, 1.5rem);
+}
+
+h4 {
+    font-size: clamp(1rem, 4vw, 1.25rem);
+}
+
+h5 {
+    font-size: clamp(0.875rem, 3vw, 1rem);
+}
+
+h6 {
+    font-size: clamp(0.75rem, 2.5vw, 0.875rem);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: clamp(2rem, 6vw, 3rem);
+    }
+
+    h2 {
+        font-size: clamp(1.125rem, 4vw, 1.125rem);
+    }
+
+    h3 {
+        font-size: clamp(1.125rem, 4.5vw, 1.25rem);
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    color: var(--text-color);
+}
