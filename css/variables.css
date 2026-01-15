@@ -8,14 +8,16 @@
     --red: #f44336;
     --green: #4caf50;
 
-    --vh: 100dvh;
     --button: var(--soft-purple);
+
+    --vh: 100dvh;
+    --br: 12px;
 }
 
 @media (prefers-color-scheme: light) {
     :root {
         --text-color: var(--deep-navy);
-        --background: var(--pale-mauve);
+        --background: var(--white);
         --input: Var(--white)
     }
 }
