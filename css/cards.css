@@ -10,8 +10,22 @@
 
 .showcase {
     display: flex;
-    padding: 20px;
-
-    border: 1px solid var(--input);
+    flex-direction: column;
+    border: 1px solid var(--pale-mauve);
     border-radius: var(--br);
+    overflow: hidden;
+}
+
+.showcase>header {
+    background-color: var(--pale-mauve);
+    padding: 10px;
+}
+
+
+.showcase>main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 20px;
 }
