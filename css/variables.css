@@ -8,8 +8,6 @@
     --red: #f44336;
     --green: #4caf50;
 
-    --button: var(--soft-purple);
-
     --vh: 100dvh;
     --br: 12px;
 }
@@ -18,7 +16,7 @@
     :root {
         --text-color: var(--deep-navy);
         --background: var(--white);
-        --input: Var(--white)
+        --input: var(--white)
     }
 }
 
