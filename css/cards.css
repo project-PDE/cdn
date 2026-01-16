@@ -1,6 +1,7 @@
 .div-card {
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 2.5%;
 }
 
 .card {
@@ -11,14 +12,17 @@
 .showcase {
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--pale-mauve);
+    border: 2px solid var(--pale-mauve);
     border-radius: var(--br);
     overflow: hidden;
+    flex-basis: 20%;
 }
 
 .showcase>header {
     background-color: var(--pale-mauve);
     padding: 10px;
+    font-size: clamp(0.875rem, 3vw, 1rem);
+    color: black;
 }
 
 
