@@ -4,9 +4,22 @@
     gap: 2.5%;
 }
 
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
 .card {
     border: 1px solid var(--input);
     border-radius: var(--br);
+    transition: box-shadow 150ms ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 0 1px var(--input);
 }
 
 .showcase {
@@ -26,7 +39,7 @@
 }
 
 
-.showcase>main {
+.card>main {
     display: flex;
     align-items: center;
     justify-content: center;

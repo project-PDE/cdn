@@ -11,6 +11,10 @@ section.hero {
     text-align: center;
 }
 
+section.hero>* {
+    text-align: initial;
+}
+
 .title {
     margin-bottom: 40px;
 }

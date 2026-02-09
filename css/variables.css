@@ -26,4 +26,14 @@
         --background: var(--deep-navy);
         --input: var(--deep-indigo);
     }
+
+}
+
+.w100 {
+    width: 100% !important;
+}
+
+.between {
+    display: flex !important;
+    justify-content: space-between !important;
 }
