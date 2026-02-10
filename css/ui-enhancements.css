@@ -1,0 +1,5 @@
+::selection {
+    background-color: var(--soft-purple);
+    /* жёлтый фон */
+    color: var(--deep-indigo);
+}

@@ -13,13 +13,13 @@
 }
 
 .card {
-    border: 1px solid var(--input);
+    border: 1px solid var(--border);
     border-radius: var(--br);
     transition: box-shadow 150ms ease;
 }
 
 .card:hover {
-    box-shadow: 0 0 0 1px var(--input);
+    box-shadow: 0 0 0 1px var(--border-active);
 }
 
 .showcase {

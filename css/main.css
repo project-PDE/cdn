@@ -4,6 +4,8 @@
 @import url("layout.css");
 @import url("cards.css");
 @import url("inputs.css");
+@import url("code.css");
+@import url("ui-enhancements.css");
 
 * {
     padding: 0;
@@ -35,7 +37,7 @@ body>main {
 
 @media (min-width: 1440px) {
     body>main {
-        width: 1440px;
+        width: var(--main-weight);
         padding: 0;
     }
 }

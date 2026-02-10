@@ -2,12 +2,14 @@
     --deep-navy: #191520;
     --deep-indigo: #221e2a;
     --soft-purple: #AF99CC;
-    --pale-mauve: #CDBCE2;
+    --pale-mauve-rgb: 205, 188, 226;
+    --pale-mauve: rgba(var(--pale-mauve-rgb), 1);
 
     --white: #f1f1f1;
     --red: #f44336;
     --green: #4caf50;
 
+    --main-weight: 1440px;
     --vh: 100dvh;
     --br: 12px;
 }
@@ -16,7 +18,8 @@
     :root {
         --text-color: var(--deep-navy);
         --background: var(--white);
-        --input: var(--white)
+        --border: rgba(var(--pale-mauve-rgb), 0.4);
+        --border-active: rgba(var(--pale-mauve-rgb), 1);
     }
 }
 
@@ -24,7 +27,8 @@
     :root {
         --text-color: var(--white);
         --background: var(--deep-navy);
-        --input: var(--deep-indigo);
+        --border: var(--deep-indigo);
+        --border-active: var(--soft-purple);
     }
 
 }
