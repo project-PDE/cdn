@@ -1,7 +1,14 @@
 code {
     border-radius: var(--br);
     font-family: 'Myna', monospace;
-    font-size: 12px !important;
+    font-size: 14px !important;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    code {
+        font-size: 12px !important;
+    }
 }
 
 .code-block>pre {
