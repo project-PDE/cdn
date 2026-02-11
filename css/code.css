@@ -1,6 +1,7 @@
 code {
     border-radius: var(--br);
     font-family: 'Myna', monospace;
+    font-size: 12px !important;
 }
 
 .code-block>pre {
