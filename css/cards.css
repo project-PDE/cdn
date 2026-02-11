@@ -1,7 +1,7 @@
 .div-card {
     display: flex;
     flex-wrap: wrap;
-    gap: 2.5%;
+    gap: 40px;
 }
 
 .card-list {
@@ -41,14 +41,20 @@
     border: 2px solid var(--pale-mauve);
     border-radius: var(--br);
     overflow: hidden;
-    flex-basis: 20%;
+    flex-basis: calc(100%/4 - 40px);
+    justify-content: space-between;
 }
 
 .showcase>header {
     background-color: var(--pale-mauve);
     padding: 10px;
     font-size: clamp(0.875rem, 3vw, 1rem);
-    color: black;
+}
+
+.showcase>header>p {
+    color: var(--deep-navy);
+    font-size: var(--h5);
+    font-weight: 600;
 }
 
 /* Карточки с кодом */
@@ -56,8 +62,5 @@
     padding: 10px;
     display: flex;
     align-items: center;
-}
 
-.card.code>main {
-    padding: 0;
 }
