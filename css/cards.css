@@ -18,10 +18,23 @@
     transition: box-shadow 150ms ease;
 }
 
+.card>main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 20px;
+}
+
+.card.no-hover:hover {
+    box-shadow: none;
+}
+
 .card:hover {
     box-shadow: 0 0 0 1px var(--border-active);
 }
 
+/* Витрины */
 .showcase {
     display: flex;
     flex-direction: column;
@@ -38,11 +51,13 @@
     color: black;
 }
 
-
-.card>main {
+/* Карточки с кодом */
+.card.code>header {
+    padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: auto;
-    padding: 20px;
+}
+
+.card.code>main {
+    padding: 0;
 }

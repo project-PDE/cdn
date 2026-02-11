@@ -3,3 +3,9 @@
     /* жёлтый фон */
     color: var(--deep-indigo);
 }
+
+.icon {
+    margin: auto;
+    color: var(--icon-color);
+    margin-right: 10px;
+}

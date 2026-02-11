@@ -20,6 +20,7 @@
         --background: var(--white);
         --border: rgba(var(--pale-mauve-rgb), 0.4);
         --border-active: rgba(var(--pale-mauve-rgb), 1);
+        --icon-color: var(--soft-purple);
     }
 }
 
@@ -29,6 +30,7 @@
         --background: var(--deep-navy);
         --border: var(--deep-indigo);
         --border-active: var(--soft-purple);
+        --icon-color: rgba(var(--pale-mauve-rgb), 1);
     }
 
 }
@@ -40,4 +42,5 @@
 .between {
     display: flex !important;
     justify-content: space-between !important;
+    align-items: center !important;
 }
