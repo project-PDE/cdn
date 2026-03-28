@@ -9,9 +9,9 @@
     border: 1px solid var(--border);
     border-radius: var(--br);
     transition: box-shadow 150ms ease;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card>main {

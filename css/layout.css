@@ -19,8 +19,6 @@ section.hero {
 }
 
 section.hero>* {
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
