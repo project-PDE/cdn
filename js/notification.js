@@ -1,4 +1,4 @@
-function notification(message, isError = false) {
+export default function notification(message, isError = false) {
     const notification = document.createElement("div");
     notification.id = "notification";
     notification.className = "notification";

@@ -7,18 +7,38 @@ section {
     box-sizing: border-box;
 }
 
+section>header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 section.hero {
+    justify-content: center;
+    align-items: center;
+}
+
+section.hero>* {
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-section.hero>* {
-    text-align: initial;
-}
-
 .title {
     margin-bottom: 40px;
+}
+
+.placeholder {
+    width: 100%;
+    padding: 60px;
+}
+
+.placeholder>* {
+    color: var(--border) !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
