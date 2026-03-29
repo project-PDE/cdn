@@ -15,6 +15,7 @@
     font-weight: 600;
     transition: 300ms;
     opacity: 0;
+    z-index: 100000;
 
 }
 

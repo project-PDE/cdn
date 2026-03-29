@@ -63,9 +63,32 @@
 
         try {
             const html = await loadMenuTemplate(menuName);
+            const template = document.createElement("template");
+            template.innerHTML = html;
+            const scripts = Array.from(template.content.querySelectorAll("script"));
+
+            for (const script of scripts) {
+                script.remove();
+            }
 
             currentOverlay.replaceChildren();
-            currentOverlay.insertAdjacentHTML("beforeend", html);
+            currentOverlay.appendChild(template.content.cloneNode(true));
+
+            // Scripts inserted through HTML strings are inert, so re-create them to execute.
+            for (const sourceScript of scripts) {
+                const runnableScript = document.createElement("script");
+
+                for (const { name, value } of sourceScript.attributes) {
+                    runnableScript.setAttribute(name, value);
+                }
+
+                if (sourceScript.textContent) {
+                    runnableScript.textContent = sourceScript.textContent;
+                }
+
+                currentOverlay.appendChild(runnableScript);
+            }
+
             currentOverlay.classList.add("is-open");
             currentOverlay.setAttribute("aria-hidden", "false");
             document.body.classList.add("menu-opened");
