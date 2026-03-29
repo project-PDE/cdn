@@ -12,15 +12,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .card>main {
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: auto;
     padding: 20px;
     gap: 10px;
+    flex-direction: column;
+}
+
+.card>main.center {
+    align-items: center;
+    justify-content: center;
 }
 
 .card.no-hover:hover {

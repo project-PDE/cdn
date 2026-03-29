@@ -35,3 +35,11 @@ h6,
 p {
     color: var(--text-color);
 }
+
+h2.title {
+    margin-bottom: 40px;
+}
+
+h3.title {
+    margin-bottom: 30px;
+}

@@ -11,6 +11,7 @@ section>header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 section.hero {
@@ -22,8 +23,9 @@ section.hero>* {
     text-align: center;
 }
 
-.title {
-    margin-bottom: 40px;
+section.hero>.card-list {
+    align-items: center;
+    justify-content: center;
 }
 
 .placeholder {

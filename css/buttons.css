@@ -44,3 +44,8 @@ button:active,
 a {
     text-decoration: none;
 }
+
+button[class^='iconoir-'] {
+    padding: 8px;
+    font-size: var(--h4);
+}
