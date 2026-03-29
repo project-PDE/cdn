@@ -8,3 +8,24 @@
     color: var(--icon-color);
     margin-right: 10px;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+    /* Ширина вертикального скроллбара */
+    height: 8px;
+    /* Высота горизонтального скроллбара */
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+    border-radius: 0 var(--br) var(--br) 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: var(--br);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--border-active);
+}

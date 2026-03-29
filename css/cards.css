@@ -5,6 +5,10 @@
 
 }
 
+.card-list.flex>.card {
+    flex: 1 1 auto;
+}
+
 .card {
     border: 1px solid var(--border);
     border-radius: var(--br);
@@ -70,4 +74,16 @@
     display: flex;
     align-items: center;
 
+}
+
+.card.mini {
+    display: flex;
+    width: auto;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.card.mini>* {
+    width: 100%;
 }

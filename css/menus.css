@@ -19,12 +19,15 @@
     background: var(--background);
     border: 1px solid var(--border-color);
     border-radius: var(--br);
-    width: min(100%, 460px);
+    min-width: 400px;
+    max-width: 1440px;
+    max-height: 90%;
     padding: 18px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    overflow-y: auto;
 }
 
 body.menu-opened {
@@ -39,6 +42,7 @@ body.menu-opened {
 
     .overlay .menu {
         width: 100%;
+        max-width: 100%;
         border-radius: var(--br) var(--br) 0 0;
     }
 }
