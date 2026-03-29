@@ -6,7 +6,7 @@
     --pale-mauve: rgba(var(--pale-mauve-rgb), 1);
 
     --white: #f1f1f1;
-    --red: #f44336;
+    --red: #ee5449;
     --green: #4caf50;
 
     --main-weight: 1440px;
@@ -44,6 +44,10 @@
 
 }
 
+.red {
+    background-color: var(--red);
+}
+
 .w100 {
     width: 100% !important;
 }
@@ -63,4 +67,8 @@
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.flex>* {
+    flex: 1 1 auto;
 }
