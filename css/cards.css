@@ -5,6 +5,10 @@
 
 }
 
+.card-list.flex {
+    align-items: normal !important;
+}
+
 .card-list.flex>.card {
     flex: 1 1 auto;
 }
@@ -79,7 +83,7 @@
 .card.mini {
     display: flex;
     width: auto;
-    padding: 10px;
+    padding: 20px;
     gap: 10px;
     flex-direction: column;
 }
