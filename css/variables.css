@@ -7,6 +7,7 @@
 
     --white: #f1f1f1;
     --red: #ee5449;
+    --red-soft: #ee544942;
     --green: #4caf50;
 
     --main-weight: 1440px;
@@ -71,4 +72,8 @@
 
 .flex>* {
     flex: 1 1 auto;
+}
+
+.hidden {
+    display: none;
 }

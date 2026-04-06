@@ -7,7 +7,7 @@ section {
     box-sizing: border-box;
 }
 
-section>header {
+section>header:first-of-type {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
@@ -26,6 +26,11 @@ section.hero>* {
 section.hero>.card-list {
     align-items: center;
     justify-content: center;
+}
+
+nav {
+    display: flex;
+    gap: 8px;
 }
 
 .placeholder {

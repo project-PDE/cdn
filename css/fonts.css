@@ -43,3 +43,29 @@ h2.title {
 h3.title {
     margin-bottom: 30px;
 }
+
+h1.placeholder,
+h2.placeholder,
+h3.placeholder,
+h4.placeholder,
+h5.placeholder,
+h6.placeholder,
+p.placeholder {
+    width: auto;
+    padding: 0;
+    color: var(--border) !important;
+}
+
+.inline {
+    font-family: "Ubuntu Mono", monospace;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4px 6px;
+}
+
+code {
+    font-family: "Ubuntu Mono", monospace;
+    font-style: normal;
+    font-size: 0.8rem;
+    border-radius: 12px;
+}

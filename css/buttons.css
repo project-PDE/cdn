@@ -10,6 +10,11 @@
     }
 }
 
+button.red:hover,
+.button.red:hover {
+    box-shadow: 0px 0px 0px 2px var(--red-soft) !important;
+}
+
 button,
 .button {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -59,4 +64,12 @@ button[class^='iconoir-'] {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+button.ghost,
+.button.ghost {
+    background: none;
+    box-shadow: none;
+    opacity: 0.2;
+
 }
