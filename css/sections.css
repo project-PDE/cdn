@@ -7,7 +7,7 @@ section {
     box-sizing: border-box;
 }
 
-section>header:first-of-type {
+section header:first-of-type {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
