@@ -57,7 +57,7 @@ p.placeholder {
 }
 
 .inline {
-    font-family: "Ubuntu Mono", monospace;
+    font-family: 'Myna', 'Ubuntu Mono', monospace !important;
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.2);
     padding: 4px 6px;
