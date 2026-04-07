@@ -31,6 +31,7 @@
         --border: rgba(var(--pale-mauve-rgb), 0.4);
         --border-active: rgba(var(--pale-mauve-rgb), 1);
         --icon-color: var(--soft-purple);
+        --accent-swipe: var(--deep-indigo);
     }
 }
 
@@ -41,6 +42,7 @@
         --border: var(--deep-indigo);
         --border-active: var(--soft-purple);
         --icon-color: rgba(var(--pale-mauve-rgb), 1);
+        --accent-swipe: var(--soft-purple);
     }
 
 }
