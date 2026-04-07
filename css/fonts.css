@@ -63,9 +63,37 @@ p.placeholder {
     padding: 4px 6px;
 }
 
+/* код */
+
 code {
-    font-family: "Ubuntu Mono", monospace;
-    font-style: normal;
-    font-size: 0.8rem;
-    border-radius: 12px;
+    border-radius: var(--br);
+    font-family: 'Myna', 'Ubuntu Mono', monospace;
+    font-size: 14px !important;
+    line-height: 1.2;
 }
+
+@media (max-width: 768px) {
+    code {
+        font-size: 12px !important;
+    }
+}
+
+.code-block>pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+code>span {
+    font-family: Myna, monospace;
+}
+
+@font-face {
+    font-family: 'Myna';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*  */
