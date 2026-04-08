@@ -9,6 +9,12 @@
     margin-right: 10px;
 }
 
+*[class^='iconoir-']::before,
+*[class*=' iconoir-']::before {
+    width: 1.250em !important;
+    height: 1.25em !important;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
     /* Ширина вертикального скроллбара */
