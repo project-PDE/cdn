@@ -41,6 +41,11 @@ button:hover,
     box-shadow: 0px 0px 0px 2px var(--pale-mauve);
 }
 
+button>*,
+.button>* {
+    color: var(--deep-navy)
+}
+
 button:active,
 .button:active {
     box-shadow: none;
