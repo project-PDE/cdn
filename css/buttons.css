@@ -43,7 +43,7 @@ button:hover,
 
 button>*,
 .button>* {
-    color: var(--deep-navy)
+    color: var(--deep-navy) !important;
 }
 
 button:active,
