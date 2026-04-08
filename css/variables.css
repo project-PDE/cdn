@@ -64,6 +64,10 @@
     align-items: center !important;
 }
 
+.between>*:last-child {
+    align-self: flex-end !important;
+}
+
 .align-center {
     display: flex;
     align-items: center;
