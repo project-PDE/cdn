@@ -77,5 +77,6 @@ button.ghost,
     background: none;
     box-shadow: none;
     opacity: 0.2;
+    color: var(--button-color) !important;
 
 }
