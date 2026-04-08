@@ -18,6 +18,14 @@
             }
         });
 
+        overlay.addEventListener("submit", (event) => {
+            if (overlay.contains(event.target)) {
+                setTimeout(() => {
+                    closeMenu();
+                }, 100);
+            }
+        }, true);
+
         document.body.appendChild(overlay);
         return overlay;
     }
@@ -99,14 +107,20 @@
     }
 
     document.addEventListener("click", (event) => {
-        const trigger = event.target.closest("[menu]");
-        if (!trigger) {
+        const target = event.target;
+
+        const closeTrigger = target.closest("[close='true'], [close='true']");
+        if (closeTrigger) {
+            closeMenu();
             return;
         }
 
-        event.preventDefault();
-        const menuName = trigger.getAttribute("menu");
-        openMenu(menuName);
+        const openTrigger = target.closest("[menu]");
+        if (openTrigger) {
+            event.preventDefault();
+            const menuName = openTrigger.getAttribute("menu");
+            openMenu(menuName);
+        }
     });
 
     document.addEventListener("keydown", (event) => {
