@@ -42,8 +42,8 @@
     :root {
         --text-color: var(--white);
         --background: var(--deep-indigo);
-        --border: var(--deep-indigo);
-        --border-active: var(--soft-purple);
+        --border: var(--deep-navy);
+        --border-active: rgba(var(--pale-mauve-rgb), 0.2);
         --icon-color: rgba(var(--pale-mauve-rgb), 1);
     }
 
