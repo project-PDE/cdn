@@ -9,6 +9,7 @@
     --red: #ee5449;
     --red-soft: #ee544942;
     --green: #4caf50;
+    --accent: var(--soft-purple);
 
     --main-weight: 1440px;
     --vh: 100dvh;
@@ -31,7 +32,6 @@
         --border: rgba(var(--pale-mauve-rgb), 0.4);
         --border-active: rgba(var(--pale-mauve-rgb), 1);
         --icon-color: var(--soft-purple);
-        --accent-swipe: var(--deep-indigo);
 
         --chip-background: rgba(var(--pale-mauve-rgb), 0.6);
         --chip-color: var(--soft-purple);
@@ -45,7 +45,6 @@
         --border: var(--deep-indigo);
         --border-active: var(--soft-purple);
         --icon-color: rgba(var(--pale-mauve-rgb), 1);
-        --accent-swipe: var(--soft-purple);
     }
 
 }

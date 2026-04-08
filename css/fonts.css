@@ -63,7 +63,7 @@ h4.accent,
 h5.accent,
 h6.accent,
 p.accent {
-    color: var(--accent-swipe);
+    color: var(--accent);
 }
 
 .inline {
