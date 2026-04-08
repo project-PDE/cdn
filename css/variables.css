@@ -32,6 +32,9 @@
         --border-active: rgba(var(--pale-mauve-rgb), 1);
         --icon-color: var(--soft-purple);
         --accent-swipe: var(--deep-indigo);
+
+        --chip-background: rgba(var(--pale-mauve-rgb), 0.6);
+        --chip-color: var(--soft-purple);
     }
 }
 
