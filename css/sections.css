@@ -1,3 +1,9 @@
+div {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -14,35 +20,19 @@ section header:first-of-type {
     gap: 20px;
 }
 
-section.hero {
-    justify-content: center;
+html>body>section {
+    width: auto !important;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-}
-
-section.hero>* {
+    justify-content: center;
     text-align: center;
-}
-
-section.hero>.card-list {
-    align-items: center;
-    justify-content: center;
+    gap: 40px;
 }
 
 nav {
     display: flex;
-    gap: 8px;
-}
-
-.placeholder {
-    padding: 60px;
-}
-
-.placeholder>* {
-    color: var(--border) !important;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: var(--gap);
 }
 
 @media (max-width: 768px) {
